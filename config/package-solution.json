@@ -27,14 +27,14 @@
         "version": "2.7.1.0"
       }
     ],
-    "name": "Microsoft Graph People Search",
+    "name": "Microsoft Graph People Search Extended",
     "id": "98a8d9d1-47c4-477c-addd-ecae95b235cc",
-    "version": "2.7.1.0",
+    "version": "2.7.1.1",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false
   },
   "paths": {
-    "zippedPackage": "solution/spfx-msgraph-peoplesearch.sppkg"
+    "zippedPackage": "solution/spfx-msgraph-peoplesearch-Extended.sppkg"
   }
 }

@@ -56,8 +56,12 @@ export class SearchService implements ISearchService {
       resultQuery = resultQuery.orderby(this.orderByParameter);
     }
 
+   /* if (!isEmpty(this.searchParameter)) {
+      resultQuery = resultQuery.query({ $search: `"jobTitle:${this.searchParameter}"` });
+    }*/
+    
     if (!isEmpty(this.searchParameter)) {
-      resultQuery = resultQuery.query({ $search: `"displayName:${this.searchParameter}"` });
+      resultQuery = resultQuery.query({ $search: `"displayname:${this.searchParameter}" OR "jobTitle:${this.searchParameter}" OR "mail:${this.searchParameter}" OR "department:${this.searchParameter}"` });
     }
 
     return await resultQuery.get();
