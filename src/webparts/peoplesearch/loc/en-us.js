@@ -3,7 +3,7 @@ define([], function() {
     "DebugLayoutOption": "Debug",
     "FilterParameter": "$filter parameter value",
     "InvalidNumberIntervalMessage": "Value needs to be at least 1 and maximum 999",
-    "NoResultMessage": "Keine Ergebinsse gefunden",
+    "NoResultMessage": "Keine Ergebnisse gefunden",
     "OrderByParameter": "$orderby parameter value",
     "PageSizeParameter": "Number of items per page",
     "PeopleLayoutOption": "People",
